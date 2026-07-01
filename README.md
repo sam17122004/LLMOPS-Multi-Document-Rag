@@ -25,7 +25,7 @@ The application allows users to upload multiple documents (PDF, DOCX, TXT), auto
 
 # Project Architecture
 
---
+```
                 User
                   │
                   ▼
@@ -46,7 +46,7 @@ The application allows users to upload multiple documents (PDF, DOCX, TXT), auto
    FAISS Vector Store         │
       │                       ▼
       └──────────► Final Response
-``
+```
 
 ---
 
@@ -68,7 +68,7 @@ The application allows users to upload multiple documents (PDF, DOCX, TXT), auto
 
 # Project Structure
 
-``
+```
 LLMOPS/
 │
 ├── multi_doc_chat/
@@ -93,7 +93,7 @@ LLMOPS/
 └── uv.lock
 ```
 
-
+---
 
 # Installation
 
